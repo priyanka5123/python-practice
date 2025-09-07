@@ -17,3 +17,19 @@ print(x % y)   # Modulus --> 0
 # Integer Division & Floor Division
 print(x // y)   # Floor division --> 2
 
+# Design a simple calculator that performs operations on two integers provided by the user.
+
+num1 = int(input("Enter First number:"))
+num2 = int(input("Enter Second number:"))
+
+add = num1 + num2
+sub = num1 - num2
+mul = num1 * num2
+div = num1 / num2
+div_floor = num1 // num2
+
+print(add)
+print(sub)
+print(mul)
+print(div)
+print(div_floor)
